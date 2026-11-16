@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'stripe' => [
+        'secret' => env('STRIPE_SECRET'),
+        'base_url' => env('STRIPE_BASE_URL', 'https://api.stripe.com/v1'),
+    ],
+
 ];
